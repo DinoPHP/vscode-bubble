@@ -3,7 +3,7 @@
     "displayName": "Bubble Language",
     "icon": "images/icon.png",
     "description": "Snippets, Syntax Highlighting, Hover, and Formatting for Bubble",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "DinoPHP",
     "license": "MIT",
     "author": {

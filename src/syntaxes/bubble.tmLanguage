@@ -28,7 +28,6 @@
     <string>^~T</string>
     <key>name</key>
     <string>HTML (Bubble)</string>
-    <string>PHP (Bubble)</string>
     <key>patterns</key>
     <array>
         <dict>
@@ -356,7 +355,7 @@
                             <string>#php</string>
                         </dict>
 
-                        <!-- TWIG START -->
+                        <!-- Bubble START -->
                         <dict>
                             <key>include</key>
                             <string>#bubble-print-tag</string>
@@ -369,7 +368,7 @@
                             <key>include</key>
                             <string>#bubble-comment-tag</string>
                         </dict>
-                        <!-- TWIG END -->
+                        <!-- Bubble END -->
 
                         <dict>
                             <key>include</key>
@@ -571,7 +570,7 @@
             <string>invalid.illegal.bad-angle-bracket.html</string>
         </dict>
 
-        <!-- TWIG START -->
+        <!-- Bubble START -->
         <dict>
             <key>include</key>
             <string>#bubble-print-tag</string>
@@ -584,7 +583,7 @@
             <key>include</key>
             <string>#bubble-comment-tag</string>
         </dict>
-        <!-- TWIG END -->
+        <!-- Bubble END -->
     </array>
     <key>repository</key>
     <dict>
@@ -601,7 +600,7 @@
                     <string>#php</string>
                 </dict>
 
-                <!-- TWIG START -->
+                <!-- Bubble START -->
                 <dict>
                     <key>include</key>
                     <string>#bubble-print-tag</string>
@@ -614,7 +613,7 @@
                     <key>include</key>
                     <string>#bubble-comment-tag</string>
                 </dict>
-                <!-- TWIG END -->
+                <!-- Bubble END -->
 
                 <dict>
                     <key>include</key>
@@ -654,7 +653,7 @@
             </array>
         </dict>
 
-        <!-- TWIG START -->
+        <!-- Bubble START -->
 
         <!-- PRINT TAG -->
         <key>bubble-print-tag</key>
@@ -1844,7 +1843,7 @@
             <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)</string>
         </dict>
 
-        <!-- TWIG END -->
+        <!-- Bubble END -->
 
         <key>php</key>
         <dict>
