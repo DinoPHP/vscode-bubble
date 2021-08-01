@@ -16,7 +16,6 @@
 - Syntax highlighting
 - Snippets
 - Emmet
-- Pretty Diff 3 Formatting
 - Hover
 
 ## What's new ?
@@ -36,7 +35,7 @@ Simply add these lines to your VS Code settings to get emmet working and also to
 
 ## Installation
 
-Install through Visual Studio Code extensions. Search for `Bubble Language 2`
+Install through Visual Studio Code extensions. Search for `Bubble Language`
 
 [Visual Studio Code Market Place: Bubble Language](https://marketplace.visualstudio.com/items?itemName=mblode.bubble-language-2)
 
