@@ -6,6 +6,7 @@
     <array>
         <string>bubble</string>
         <string>html.bubble</string>
+        <string>php.bubble</string>
     </array>
     <key>firstLineMatch</key>
     <string>&lt;!(?i:DOCTYPE)|&lt;(?i:html)|&lt;\?(?i:php)|\{\{|\{%|\{#</string>
@@ -27,6 +28,7 @@
     <string>^~T</string>
     <key>name</key>
     <string>HTML (Bubble)</string>
+    <string>PHP (Bubble)</string>
     <key>patterns</key>
     <array>
         <dict>
