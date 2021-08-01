@@ -45,11 +45,13 @@
                 "id": "bubble",
                 "aliases": [
                     "HTML (Bubble)",
+                    "PHP (Bubble)",
                     "bubble"
                 ],
                 "extensions": [
                     ".bubble",
-                    ".html.bubble"
+                    ".html.bubble",
+                    ".php.bubble"
                 ],
                 "configuration": "./src/languages/bubble.configuration.json"
             }
