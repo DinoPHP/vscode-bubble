@@ -5,7 +5,7 @@ import functionsArr from './hover/functions.json'
 import bubbleArr from './hover/bubble.json'
 
 const editor = vscode.workspace.getConfiguration('editor');
-const config = vscode.workspace.getConfiguration('bubble-language-2');
+const config = vscode.workspace.getConfiguration('bubble-language');
 
 function createHover(snippet, type) {
     const example = typeof snippet.example == 'undefined' ? '' : snippet.example

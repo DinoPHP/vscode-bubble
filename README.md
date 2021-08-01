@@ -37,7 +37,7 @@ Simply add these lines to your VS Code settings to get emmet working and also to
 
 Install through Visual Studio Code extensions. Search for `Bubble Language`
 
-[Visual Studio Code Market Place: Bubble Language](https://marketplace.visualstudio.com/items?itemName=mblode.bubble-language-2)
+[Visual Studio Code Market Place: Bubble Language](https://marketplace.visualstudio.com/items?itemName=mblode.bubble-language)
 
 ## Documentation
 

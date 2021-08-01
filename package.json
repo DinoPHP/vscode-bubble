@@ -1,22 +1,21 @@
 {
-    "name": "bubble-language-2",
-    "displayName": "Bubble Language 2",
+    "name": "bubble-language",
+    "displayName": "Bubble Language",
     "description": "Snippets, Syntax Highlighting, Hover, and Formatting for Bubble",
-    "version": "0.9.2",
-    "publisher": "mblode",
+    "version": "1.0.1",
+    "publisher": "DinoPHP",
     "license": "MIT",
     "author": {
-        "name": "Matthew Blode",
-        "email": "m@blode.co",
-        "url": "https://matthewblode.com"
+        "name": "Ahmed Mohamed Ibrahim",
+        "email": "ahmedmohamed@dinophp.com"
     },
-    "homepage": "https://github.com/mblode/vscode-bubble-language-2",
+    "homepage": "https://github.com/DinoPHP/vscode-bubble",
     "bugs": {
-        "url": "https://github.com/mblode/vscode-bubble-language-2/issues"
+        "url": "https://github.com/DinoPHP/vscode-bubble/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/mblode/vscode-bubble-language-2.git"
+        "url": "https://github.com/DinoPHP/vscode-bubble.git"
     },
     "icon": "images/icon.png",
     "engines": {
@@ -33,7 +32,8 @@
         "bubble",
         "snippets",
         "craft",
-        "beautify"
+        "beautify",
+        "dinophp"
     ],
     "activationEvents": [
         "onLanguage:bubble"
@@ -76,29 +76,29 @@
         ],
         "configuration": {
             "type": "object",
-            "title": "Bubble Language 2",
+            "title": "Bubble Language",
             "properties": {
-                "bubble-language-2.hover": {
+                "bubble-language.hover": {
                     "type": "boolean",
                     "default": true,
                     "description": "Whether to enable/disable Bubble hover."
                 },
-                "bubble-language-2.formatting": {
+                "bubble-language.formatting": {
                     "type": "boolean",
                     "default": true,
                     "description": "Whether to enable/disable Bubble PrettyDiff formatting."
                 },
-                "bubble-language-2.braceLine": {
+                "bubble-language.braceLine": {
                     "type": "boolean",
                     "default": false,
                     "description": "If true an empty line will be inserted after opening curly braces and before closing curly braces."
                 },
-                "bubble-language-2.bracePadding": {
+                "bubble-language.bracePadding": {
                     "type": "boolean",
                     "default": false,
                     "description": "Inserts a space after the start of a container and before the end of the container if the contents of that container are not indented; such as: conditions, function arguments, and escaped sequences of template strings."
                 },
-                "bubble-language-2.braceStyle": {
+                "bubble-language.braceStyle": {
                     "type": "string",
                     "enum": [
                         "collapse",
@@ -109,42 +109,42 @@
                     "default": "none",
                     "description": "Emulates JSBeautify's brace_style option using existing Pretty Diff options."
                 },
-                "bubble-language-2.braces": {
+                "bubble-language.braces": {
                     "type": "boolean",
                     "default": false,
                     "description": "Determines if opening curly braces will exist on the same line as their condition or be forced onto a new line."
                 },
-                "bubble-language-2.commentLine": {
+                "bubble-language.commentLine": {
                     "type": "boolean",
                     "default": false,
                     "description": "If a blank new line should be forced above comments."
                 },
-                "bubble-language-2.comments": {
+                "bubble-language.comments": {
                     "type": "boolean",
                     "default": false,
                     "description": "This will determine whether comments should always start at position 0 of each line or if comments should be indented according to the code."
                 },
-                "bubble-language-2.compressedCss": {
+                "bubble-language.compressedCss": {
                     "type": "boolean",
                     "default": false,
                     "description": "If CSS should be beautified in a style where the properties and values are minifed for faster reading of selectors."
                 },
-                "bubble-language-2.correct": {
+                "bubble-language.correct": {
                     "type": "boolean",
                     "default": false,
                     "description": "Automatically correct some sloppiness in code."
                 },
-                "bubble-language-2.cssInsertLines": {
+                "bubble-language.cssInsertLines": {
                     "type": "boolean",
                     "default": false,
                     "description": "Inserts new line characters between every CSS code block."
                 },
-                "bubble-language-2.elseLine": {
+                "bubble-language.elseLine": {
                     "type": "boolean",
                     "default": false,
                     "description": "If else_line is true then the keyword 'else' is forced onto a new line."
                 },
-                "bubble-language-2.endComma": {
+                "bubble-language.endComma": {
                     "type": "string",
                     "enum": [
                         "always",
@@ -154,17 +154,17 @@
                     "default": false,
                     "description": "If there should be a trailing comma in arrays and objects. Value multiline only applies to modes beautify and diff."
                 },
-                "bubble-language-2.forceAttribute": {
+                "bubble-language.forceAttribute": {
                     "type": "boolean",
                     "default": false,
                     "description": "If all markup attributes should be indented each onto their own line."
                 },
-                "bubble-language-2.forceIndent": {
+                "bubble-language.forceIndent": {
                     "type": "boolean",
                     "default": false,
                     "description": "Will force indentation upon all content and tags without regard for the creation of new text nodes."
                 },
-                "bubble-language-2.formatArray": {
+                "bubble-language.formatArray": {
                     "type": "string",
                     "enum": [
                         "default",
@@ -174,7 +174,7 @@
                     "default": "default",
                     "description": "Determines if all array indexes should be indented, never indented, or left to the default."
                 },
-                "bubble-language-2.formatObject": {
+                "bubble-language.formatObject": {
                     "type": "string",
                     "enum": [
                         "default",
@@ -184,12 +184,12 @@
                     "default": "default",
                     "description": "Determines if all object keys should be indented, never indented, or left to the default."
                 },
-                "bubble-language-2.functionName": {
+                "bubble-language.functionName": {
                     "type": "boolean",
                     "default": false,
                     "description": "If a space should follow a JavaScript function name."
                 },
-                "bubble-language-2.indentStyle": {
+                "bubble-language.indentStyle": {
                     "type": "string",
                     "enum": [
                         "space",
@@ -198,57 +198,57 @@
                     "default": "tab",
                     "description": "Choose to indent using tabs or spaces."
                 },
-                "bubble-language-2.indentLevel": {
+                "bubble-language.indentLevel": {
                     "type": "integer",
                     "default": 0,
                     "description": "How much indentation padding should be applied to beautification? This option is internally used for code that requires switching between libraries."
                 },
-                "bubble-language-2.tabSize": {
+                "bubble-language.tabSize": {
                     "type": "integer",
                     "default": 0,
                     "description": "0 will default to the editor's tab size. Stores the number of 'inchar' values to comprise a single indentation."
                 },
-                "bubble-language-2.methodChain": {
+                "bubble-language.methodChain": {
                     "type": "integer",
                     "default": 0,
                     "description": "When to break consecutively chained methods and properties onto separate lines. A negative value disables this option. A value of 0 ensures method chains are never broken."
                 },
-                "bubble-language-2.neverFlatten": {
+                "bubble-language.neverFlatten": {
                     "type": "boolean",
                     "default": false,
                     "description": "If destructured lists in script should never be flattend."
                 },
-                "bubble-language-2.newLine": {
+                "bubble-language.newLine": {
                     "type": "boolean",
                     "default": true,
                     "description": "Insert an empty line at the end of output."
                 },
-                "bubble-language-2.noCaseIndent": {
+                "bubble-language.noCaseIndent": {
                     "type": "boolean",
                     "default": false,
                     "description": "If a case statement should receive the same indentation as the containing switch block."
                 },
-                "bubble-language-2.noLeadZero": {
+                "bubble-language.noLeadZero": {
                     "type": "boolean",
                     "default": false,
                     "description": "Whether leading 0s in CSS values immediately preceeding a decimal should be removed or prevented."
                 },
-                "bubble-language-2.objectSort": {
+                "bubble-language.objectSort": {
                     "type": "boolean",
                     "default": false,
                     "description": "Sorts markup attributes and properties by key name in script and style."
                 },
-                "bubble-language-2.preserve": {
+                "bubble-language.preserve": {
                     "type": "integer",
                     "default": 2,
                     "description": "The maximum number of consecutive empty lines to retain."
                 },
-                "bubble-language-2.preserveComment": {
+                "bubble-language.preserveComment": {
                     "type": "boolean",
                     "default": false,
                     "description": "Prevent comment reformatting due to option wrap."
                 },
-                "bubble-language-2.quoteConvert": {
+                "bubble-language.quoteConvert": {
                     "type": "string",
                     "enum": [
                         "double",
@@ -258,37 +258,37 @@
                     "default": "none",
                     "description": "If the quotes of script strings or markup attributes should be converted to single quotes or double quotes."
                 },
-                "bubble-language-2.space": {
+                "bubble-language.space": {
                     "type": "boolean",
                     "default": true,
                     "description": "Inserts a space following the function keyword for anonymous functions."
                 },
-                "bubble-language-2.spaceClose": {
+                "bubble-language.spaceClose": {
                     "type": "boolean",
                     "default": false,
                     "description": "Markup self-closing tags end will end with ' />' instead of '/>'."
                 },
-                "bubble-language-2.tagMerge": {
+                "bubble-language.tagMerge": {
                     "type": "boolean",
                     "default": false,
                     "description": "Allows immediately adjacement start and end markup tags of the same name to be combined into a single self-closing tag."
                 },
-                "bubble-language-2.tagSort": {
+                "bubble-language.tagSort": {
                     "type": "boolean",
                     "default": false,
                     "description": "Sort child items of each respective markup parent element."
                 },
-                "bubble-language-2.ternaryLine": {
+                "bubble-language.ternaryLine": {
                     "type": "boolean",
                     "default": true,
                     "description": "If ternary operators in JavaScript ? and : should remain on the same line."
                 },
-                "bubble-language-2.unformatted": {
+                "bubble-language.unformatted": {
                     "type": "boolean",
                     "default": false,
                     "description": "If markup tags should have their insides preserved. This option is only available to markup and does not support child tokens that require a different lexer."
                 },
-                "bubble-language-2.variableList": {
+                "bubble-language.variableList": {
                     "type": "string",
                     "enum": [
                         "each",
@@ -298,12 +298,12 @@
                     "default": "none",
                     "description": "If consecutive JavaScript variables should be merged into a comma separated list or if variables in a list should be separated."
                 },
-                "bubble-language-2.vertical": {
+                "bubble-language.vertical": {
                     "type": "boolean",
                     "default": false,
                     "description": "If lists of assignments and properties should be vertically aligned. This option is not used with the markup lexer."
                 },
-                "bubble-language-2.wrap": {
+                "bubble-language.wrap": {
                     "type": "integer",
                     "default": 0,
                     "description": "Character width limit before applying word wrap. A 0 value disables this option. A negative value concatenates script strings."
