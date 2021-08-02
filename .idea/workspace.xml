@@ -4,7 +4,6 @@
     <list default="true" id="1d4600fd-8082-491c-9375-10ce37710300" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/syntaxes/bubble.tmLanguage" beforeDir="false" afterPath="$PROJECT_DIR$/src/syntaxes/bubble.tmLanguage" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,9 @@
       <workItem from="1627758612539" duration="4101000" />
       <workItem from="1627802254149" duration="1190000" />
       <workItem from="1627821164939" duration="1089000" />
-      <workItem from="1627822477729" duration="5003000" />
+      <workItem from="1627822477729" duration="6189000" />
+      <workItem from="1627894445363" duration="2356000" />
+      <workItem from="1627899021499" duration="860000" />
     </task>
     <servers />
   </component>

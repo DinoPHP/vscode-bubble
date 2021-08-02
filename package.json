@@ -19,7 +19,12 @@
         "url": "https://github.com/DinoPHP/vscode-bubble.git"
     },
     "engines": {
-        "vscode": "^1.30.0"
+        "vscode": "*"
+    },
+    "iconDefinitions": {
+        "_folder_dark": {
+            "iconPath": "images/DinoPHP-icon.svg"
+        }
     },
     "categories": [
         "Formatters",
@@ -40,6 +45,15 @@
     ],
     "main": "./extension/index",
     "contributes": {
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "bubbleViewsContainer",
+                    "title": "Bubble container view",
+                    "icon": "images/DinoPHP-icon.svg"
+                }
+            ]
+        },
         "languages": [
             {
                 "id": "bubble",
